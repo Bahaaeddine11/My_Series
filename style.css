@@ -29,10 +29,11 @@ body {
 h2{
     position: relative;
     color: #fff;
-    padding: 0px 1px;
-    font-size: 50px;
+    padding: 11px 1px;
+    font-size: 45px;
     font-family: Grenze Gotisch;
     font-weight: bold;
+    line-height: 0.75;
 }
 
 h2:after{
