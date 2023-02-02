@@ -25,7 +25,7 @@ while(i < list.length) {
         const g3 = n.substr(n.length-1,1);
         const sn = n.charAt(n.length-5);
         const link ='https://www.google.com/search?q='+name.replaceAll(' ', '+')+"+series";
-        const result = `<li><a href=${link} target="_blank"><img src="pics/${name}.png" onmouseenter="play(music${i})" onmouseleave="stop(music${i})" alt="${name}" id="${i}"><a><h2>${name}</h2>
+        const result = `<li><img src="pics/${name}.png" onmouseenter="play(music${i})" onmouseleave="stop(music${i})" alt="${name}" id="${i}"><h2>${name}</h2>
                         <p>Seasons: ${sn}</p><p>Genres: ${genre[g1]} ${genre[g2]} ${genre[g3]}</p></li>`;
         document.querySelector('.series').innerHTML += result;
         window['music'+i] = document.getElementById(`${name}`);
