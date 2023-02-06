@@ -1,21 +1,13 @@
 const list = ["Agent Carter-2-sad","Archive81-1-mdh","Band of Brothers-1-wda","Dark-3-tmd","Halo-1-sae","Hawkeye-1-cab","House of Dragons-1-fda",
               "I Am Groot-1-scv","iCarly-2-ocv","La Casa De Papel-5-iab","Locke and Key-3-hdm","Loki-1-etf","MacGyver-5-eav","Moon Knight-1-aef","Ms. Marvel-1-eca","Prison Break-5-amt","Reacher-1-atc",
-              "Resident Evil-1-ahd","Scream Queens-2-hcd","She-Hulk Attorney at Law-1-ecd","Stay Close-1-mbt","The Falcon And The Winter Soldier-1-cea","The Flight Attendant-2-mct","The Punisher-2-bat",
+              "Resident Evil-1-ahd","Scream Queens-2-hcd","She-Hulk Attorney at Law-1-ecd","Stay Close-1-mbt","The Falcon And The Winter Soldier-1-cea","The Flight Attendant-2-mct","The Outsider-1-hbm","The Punisher-2-bat",
               "The Queen's Gambit-1-dvv","The Terminal List-1-adb","The Witcher-2-efd","Wanda Vision-1-rmd","Wednesday-1-fcm"];
 let i=0,
 j=0;
 
-//"The Outsider-1-hbm","The Last Of Us-1-","Ginny & Georgia"
+//"The Last Of Us-1-","Ginny & Georgia"
 const genre = {a:"Action",b:"Crime",c:"Comedy",d:"Drama",e:"Adventure",f:"Fantasy",t:"Thriller",h:"Horror",m:"Mystery",
                 s:"Sci-Fi",r:"Romance",w:"War",i:"Heist",o:"Sitcom",v:""}
-
-while(j < list.length) {
-        const  n = list[j];
-        const name = n.substr(0,n.length-6);
-        const result1 = `<audio id="${name}" src="sound/${name}.mp3" preload="auto"></audio>`;
-        document.querySelector('.series').innerHTML += result1;
-        j++;
-}
 
 while(i < list.length) {
         const  n = list[i];
