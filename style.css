@@ -5,6 +5,21 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+@font-face {
+    font-family: 'Iceland';
+    src: url('./Fonts/Iceland/Iceland-Regular.ttf');
+
+}
+
+@font-face {
+    font-family: 'Grenze Gotisch';
+    src: url('./Fonts/Grenze_Gotisch/GrenzeGotisch-ExtraLight.ttf');
+
+}
+
+
+
 body {
     font-family: 'Iceland', cursive;
     font-family: 'Grenze Gotisch', cursive;
@@ -104,6 +119,6 @@ p{
 
 @media screen and (max-width: 650px) {
     .page{
-        padding-left: 10%;
+        padding-left: 11%;
     }
 }
